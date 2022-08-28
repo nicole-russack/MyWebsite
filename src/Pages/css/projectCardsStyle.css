@@ -1,0 +1,36 @@
+.mainSheetStyleDiv{
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 75vh;
+    border-radius: 30px;
+    display: flex;
+    align-Items: center;
+    flex: 1;
+    flex-Direction: column;
+    padding: 20px;
+    margin-top: 30px;
+
+}
+
+.mainSheetStyleDiv:hover{
+    background-color:rgba(255, 255, 255, .7);
+    /* transform: scale(1.02); */
+    box-shadow: 0 4px 4px 5px hsla(276, 74%, 36%, .5);
+}
+
+.LaptopImage{
+    width: 80%;
+    padding-bottom: 20px;
+}
+
+
+.ProjectHeading {
+    text-align: center;
+    font-size: 50px;
+    color:#010440;
+
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+}
