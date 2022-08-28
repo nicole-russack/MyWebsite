@@ -1,11 +1,12 @@
+import Button from "react-bootstrap/Button";
 
 import React from "react";
 import "/Users/nicolerussack/nicole-russack-webpage/src/Pages/css/popUpPageStyle.css"
-import image from '/Users/nicolerussack/nicole-russack-webpage/src/Assets/laptopart.png';
 import image1 from '/Users/nicolerussack/nicole-russack-webpage/src/Assets/DoorDrink1.png';
 import image2 from '/Users/nicolerussack/nicole-russack-webpage/src/Assets/DoorDrink2.png';
 import image3 from '/Users/nicolerussack/nicole-russack-webpage/src/Assets/DoorDrink3.png';
 import image4 from '/Users/nicolerussack/nicole-russack-webpage/src/Assets/DoorDrink4.png';
+import { BsGithub } from "react-icons/bs";
 
 
 const Popup = props => {
@@ -20,17 +21,26 @@ const Popup = props => {
                     alignItems: 'Center',
                     flexDirection: 'column'
             }}>
-                <h1>{props.title}</h1>
+            <h1 class = "PopUpPageTitle">{props.title}</h1>
             <div class = "portfolioImagesDiv"> 
               <img src={image1} class = "portfolioImages"></img>
                 <img src={image2} class = "portfolioImages"></img>
                 <img src={image3} class = "portfolioImages"></img>
                 <img src={image4} class = "portfolioImages"></img>
             </div>
+
+        <p>{props.description}</p>
+        <div>
+          <p class ="Actultext"> <span style={{fontSize:"40px", color:"#010440"}}>Laungeges: </span> Python, ReactJS</p>
+          <p class ="Actultext"><span style={{fontSize:"40px", color:"#010440"}}>Frameworks: </span>  Mapbox</p>
+          <p class ="Actultext"><span style={{fontSize:"40px", color:"#010440"}}>Awards: </span>CURVE Researcher</p>
+        </div>
+        <Button  href="https://github.com/soumyajit4419/Portfolio/blob/master/src/components/Projects/ProjectCards.js" class = "GithubButton">
+          <BsGithub/> Github
+        </Button>
                
-                <p>{props.description}</p>
-                <p>Languages: Java</p>
-                <p>Frameworks: FireBase, Junit, GoogleCloud API</p>
+               
+  
             </div>
       </div>
     </div>
