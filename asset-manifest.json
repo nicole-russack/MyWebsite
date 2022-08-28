@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/MyWebsite/static/css/main.057a3d92.css",
+    "main.js": "/MyWebsite/static/js/main.4c93168f.js",
+    "static/media/oculus.mp4": "/MyWebsite/static/media/oculus.2fd1f99cdabba0544c07.mp4",
+    "static/media/ScreenRecording.mp4": "/MyWebsite/static/media/ScreenRecording.5e51ad97b21d7160326f.mp4",
+    "pdf.worker.js": "/MyWebsite/e7e915313973ba1d49f9bb2a1998626e.js",
+    "static/media/gifILike.gif": "/MyWebsite/static/media/gifILike.b73d846ebe2713f7d4bc.gif",
+    "static/media/DoorDrink2.png": "/MyWebsite/static/media/DoorDrink2.c5e6d55b45365513e2b6.png",
+    "static/media/DoorDrink4.png": "/MyWebsite/static/media/DoorDrink4.f08c05670be39c409115.png",
+    "static/media/DoorDrink3.png": "/MyWebsite/static/media/DoorDrink3.cf52a02129165b515da5.png",
+    "static/media/DoorDrink1.png": "/MyWebsite/static/media/DoorDrink1.aa826e391348d052bd08.png",
+    "static/media/NicoleRussackHeadshot.jpg": "/MyWebsite/static/media/NicoleRussackHeadshot.57b2c385b97fa1b70b10.jpg",
+    "static/media/ezgif-1-6a23d0d75f.mp4": "/MyWebsite/static/media/ezgif-1-6a23d0d75f.2df7c4913d497d5eb9e4.mp4",
+    "static/media/vecteezy_computer-laptop-with-transparent-screen_8854312_335.png": "/MyWebsite/static/media/vecteezy_computer-laptop-with-transparent-screen_8854312_335.095274c6ce015f9c9ae2.png",
+    "static/media/NicoleRussackResume.pdf": "/MyWebsite/static/media/NicoleRussackResume.cf238b93ab2c880a4fa8.pdf",
+    "static/media/BackgroundWebpageImage.png": "/MyWebsite/static/media/BackgroundWebpageImage.6afaf5e3d62004ab8b60.png",
+    "static/media/laptopart.png": "/MyWebsite/static/media/laptopart.c025d8dd4b8667c37cde.png",
+    "index.html": "/MyWebsite/index.html",
+    "main.057a3d92.css.map": "/MyWebsite/static/css/main.057a3d92.css.map",
+    "main.4c93168f.js.map": "/MyWebsite/static/js/main.4c93168f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.057a3d92.css",
+    "static/js/main.4c93168f.js"
+  ]
+}
