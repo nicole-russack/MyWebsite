@@ -1,0 +1,38 @@
+nav {
+	width: 100%;
+	height:80px;
+	background-color: rgb(255, 255, 255, .7);
+	position: sticky;
+	z-index: 10;
+	top: 0;
+	float: right;
+	padding: 1.2em 0;
+	color: black;
+}
+
+nav span {
+	float: right;
+	padding-right: 50px;
+	font-size: 20px;
+	border-bottom: 1px solid transparent;
+	transition: border-bottom 0.2s ease;
+	margin: 1em;
+	padding-bottom: 0.3em;
+}
+
+nav span:hover {
+	cursor: pointer;
+	border-bottom: 1px solid black;
+}
+
+nav span:hover i {
+	color: gold;
+}
+
+nav span.activeClass i {
+	color: gold;
+}
+
+nav span.activeClass {
+	border-bottom-color: var(--lightAccent);
+}

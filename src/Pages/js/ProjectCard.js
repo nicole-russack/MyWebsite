@@ -1,13 +1,19 @@
 import React, { useEffect, useState } from "react";
 import Popup from '/Users/nicolerussack/nicole-russack-webpage/src/Pages/js/PopupPage.js';
 import '/Users/nicolerussack/nicole-russack-webpage/src/Pages/css/projectCardsStyle.css';
+import { FaTrophy } from 'react-icons/fa';
+import { FaRegFileCode } from 'react-icons/fa';
+
+
 
 const About = props => {
 
   const {
     title,
     description,
-    imgPath
+    imgPath,
+    tools,
+    awards
   } = props
 
   const [isOpen, setIsOpen] = useState(false);
@@ -24,6 +30,9 @@ const About = props => {
         <img class = "LaptopImage" src = {imgPath}></img>
         <h1 class = "ProjectHeading">{title}</h1>
         <p>{description}</p>
+        <p><FaRegFileCode style ={{color:'#010440'}}/> {tools}</p>
+        <p>< FaTrophy style={{color:'gold'}}/> {awards}</p>
+        
 
 
       {isOpen && <Popup

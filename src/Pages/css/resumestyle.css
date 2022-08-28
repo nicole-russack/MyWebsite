@@ -3,7 +3,7 @@
 
 
 .wholeResumePage {
-
+    padding-top: 50px;
     background: hsla(309, 100%, 43%, 1);
 
     background: linear-gradient(270deg, hsla(309, 100%, 43%, 1) 0%, hsla(276, 74%, 36%, 1) 97%);
