@@ -1,0 +1,43 @@
+.wholePage { 
+    background: hsla(56, 96%, 48%, 1);
+
+    background: linear-gradient(270deg, hsla(56, 96%, 48%, 1) 0%, hsla(27, 95%, 61%, 1) 99%);
+
+    background: -moz-linear-gradient(270deg, hsla(56, 96%, 48%, 1) 0%, hsla(27, 95%, 61%, 1) 99%);
+
+    background: -webkit-linear-gradient(270deg, hsla(56, 96%, 48%, 1) 0%, hsla(27, 95%, 61%, 1) 99%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F2E205", endColorstr="#F29A2E", GradientType=1 );
+
+    height: 100vh;
+
+  
+} 
+
+.ImageAndText{
+    padding-top:100px;
+    /* background-color:blue; */
+    display: flex;
+}
+
+.JustImage{
+    display: 'flex';
+    align-Items: 'center';
+    /* background-color: red; */
+    justify-Content: 'center';
+    float: 'left';
+    color: 'black';
+    flex: 1;     
+}
+
+
+.InsideText{
+    padding-top: 40px;
+    padding-left: 40px;
+    vertical-align: top;
+    text-align: center;
+    display: 'flex';
+    /* background-color: yellow; */
+    color: 'black';
+    flex: 1;     
+}
