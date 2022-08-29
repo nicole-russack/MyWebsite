@@ -23,21 +23,28 @@ const Popup = props => {
             }}>
             <h1 class = "PopUpPageTitle">{props.title}</h1>
             <div class = "portfolioImagesDiv"> 
-              <img src={image1} class = "portfolioImages"></img>
-                <img src={image2} class = "portfolioImages"></img>
-                <img src={image3} class = "portfolioImages"></img>
-                <img src={image4} class = "portfolioImages"></img>
+              <img src={props.img1} className={(!props.phone ? 'portfolioImages' : 'phoneImagePortfolio')}></img>
+                <img src={props.img2} className={(!props.phone ? 'portfolioImages' : 'phoneImagePortfolio')}></img>
+                <img src={props.img3} className={(!props.phone ? 'portfolioImages' : 'phoneImagePortfolio')}></img>
+                <img src={props.img4} className={(!props.phone ? 'portfolioImages' : 'phoneImagePortfolio')}></img>
             </div>
 
-        <p>{props.description}</p>
-        <div>
-          <p class ="Actultext"> <span style={{fontSize:"40px", color:"#010440"}}>Laungeges: </span> Python, ReactJS</p>
-          <p class ="Actultext"><span style={{fontSize:"40px", color:"#010440"}}>Frameworks: </span>  Mapbox</p>
-          <p class ="Actultext"><span style={{fontSize:"40px", color:"#010440"}}>Awards: </span>CURVE Researcher</p>
+        
+        <div class ="PopupBoxDiv">
+          <h2>{props.description}</h2>
+          <div class ="PopupBoxTags">
+            <h2 class ="PopupBoxText"> <span style={{fontSize:"40px", color:"#010440"}}>Laungeges: </span> {props.Language}</h2>
+            {props.tools ? <h2 class ="PopupBoxText"><span style={{fontSize:"40px", color:"#010440"}}>Frameworks: </span>  {props.tools}</h2> : null}
+            {props.awards ?  <h2 class ="PopupBoxText"><span style={{fontSize:"40px", color:"#010440"}}>Awards: </span>{props.awards}</h2> : null}
+
+           
+          </div>
         </div>
-        <Button  href="https://github.com/soumyajit4419/Portfolio/blob/master/src/components/Projects/ProjectCards.js" class = "GithubButton">
-          <BsGithub/> Github
-        </Button>
+        <div class = "GithubButton" >
+          <BsGithub/> 
+          <a class = "GithubButtonText" href = {props.Link} target = "_blank">    Github</a>
+        </div>
+        
                
                
   
