@@ -33,7 +33,7 @@ const Popup = props => {
         <div class ="PopupBoxDiv">
           <h2>{props.description}</h2>
           <div class ="PopupBoxTags">
-            <h2 class ="PopupBoxText"> <span style={{fontSize:"40px", color:"#010440"}}>Laungeges: </span> {props.Language}</h2>
+            <h2 class ="PopupBoxText"> <span style={{fontSize:"40px", color:"#010440"}}>Languages: </span> {props.Language}</h2>
             {props.tools ? <h2 class ="PopupBoxText"><span style={{fontSize:"40px", color:"#010440"}}>Frameworks: </span>  {props.tools}</h2> : null}
             {props.awards ?  <h2 class ="PopupBoxText"><span style={{fontSize:"40px", color:"#010440"}}>Awards: </span>{props.awards}</h2> : null}
 

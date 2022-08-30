@@ -1,5 +1,5 @@
 import React from 'react';
-import headshot from '/Users/nicolerussack/nicole-russack-webpage/src/Assets/NicoleRussackHeadshot.jpg'
+import headshot from '/Users/nicolerussack/nicole-russack-webpage/src/Assets/NewNewImage.jpg'
 import '/Users/nicolerussack/nicole-russack-webpage/src/Pages/css/aboutStyle.css'
 import CarouselPart from '/Users/nicolerussack/nicole-russack-webpage/src/Pages/js/PhotoCarocel.js'
 const About = () => {
@@ -12,13 +12,13 @@ const About = () => {
        <div class = "JustImage">
          <img src = {headshot} style = {{
            borderRadius: '50%',
-           marginLeft:'5vh', width:'60vh'  }}/>
+           marginLeft:'5vh', width:'550px', height:'550px' }}/>
         </div>
         
         <div class = "InsideText">
           <h1 class = "textInBox">Hi, I'm Nicole!</h1>
           <p class = "textInBox">I am a current Junior at University of Southern California studying Computer Science and Business Administration. 
-           I have been intrested in software development since middle school and am so happy to have it as a career. In my free time
+           I have been interested in software development since middle school and am so happy to have it as a career. In my free time
            I also enjoy crochetting, animals, and exploring LA.
           </p>
         </div>

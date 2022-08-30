@@ -14,9 +14,6 @@ const Home = () => {
       wrapperEl.style.marginTop = `calc(180% - ${Math.floor(videoEl.duration) *
         playbackRate +
         'px'})`
-      // wrapperEl.style.marginBottom = `calc(180% - ${Math.floor(videoEl.duration) *
-      //   playbackRate +
-      //   'px'})`
   }
 
   return (

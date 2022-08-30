@@ -24,6 +24,24 @@ import VibeCheckimgae2 from '/Users/nicolerussack/nicole-russack-webpage/src/Ass
 import VibeCheckimgae3 from '/Users/nicolerussack/nicole-russack-webpage/src/Assets/VibeCheckImage3.png'
 import VibeCheckimgae4 from '/Users/nicolerussack/nicole-russack-webpage/src/Assets/VibeCheckImage4.png'
 
+import PortfolioHome from '/Users/nicolerussack/nicole-russack-webpage/src/Assets/PortfolioHome.png'
+import PortfolioSite1 from '/Users/nicolerussack/nicole-russack-webpage/src/Assets/PortfolioSite1.png'
+import PortfolioSite2 from '/Users/nicolerussack/nicole-russack-webpage/src/Assets/PortfolioSite2.png'
+import PortfolioSite3 from '/Users/nicolerussack/nicole-russack-webpage/src/Assets/PortfolioSite3.png'
+import PortfolioSite4 from '/Users/nicolerussack/nicole-russack-webpage/src/Assets/PortfolioSite4.png' 
+
+
+import ScopeHackathon2 from '/Users/nicolerussack/nicole-russack-webpage/src/Assets/ScopeHackathon1.png'
+import ScopeHackathon1 from '/Users/nicolerussack/nicole-russack-webpage/src/Assets/ScopeHackathon2.png'
+import ScopeHackathonHome from '/Users/nicolerussack/nicole-russack-webpage/src/Assets/ScopeHome.png'
+
+import USConflictsHome from '/Users/nicolerussack/nicole-russack-webpage/src/Assets/USConflictsHome.png'
+import USConflicts1 from '/Users/nicolerussack/nicole-russack-webpage/src/Assets/USConflicts1.png'
+import USConflicts2 from '/Users/nicolerussack/nicole-russack-webpage/src/Assets/USConflicts2.png'
+import USConflicts3 from '/Users/nicolerussack/nicole-russack-webpage/src/Assets/USConflicts3.png'
+import USConflicts4 from '/Users/nicolerussack/nicole-russack-webpage/src/Assets/USConflicts4.png'
+
+
 const Portfoilio = () => {
   return (
     <div class = "wholeporfolioPage"  id='profileContainer'>
@@ -90,25 +108,41 @@ const Portfoilio = () => {
       <Row class="RowRow">        
         <Col class = "ColLeft">
             <ProjectCard
-              imgPath={image}
-              title="Scheduler"
-              description="First description"
+              imgPath={USConflictsHome}
+              img1 = {USConflicts1}
+              img2 = {USConflicts2}
+              img3 = {USConflicts3}
+              img4 = {USConflicts4}
+              title="University of Scheduling Conflicts (USC)"
+              description = "A web app for scheduling that helps large groups of people to coordinate their schedules to find a meeting time."
+              Longdescription = "University of Scheduling Conflicts (USC) is a web app for scheduling that helps large groups of people to coordinate their schedules in order to find a meeting time that will work for everyone. Users will enter the timeframe and guests for their desired meeting and our web app will display which times are available for the event. This project was created with an HTML/CSS/JS frontend with a Java backend connected with Axios. "
+              tools = "Axios, Firebase, Heroku, Figma, Spring Boot, NoSQL"
+              Language= "Java, Node.js, HTML/CSS/JS"
+              Link = "https://github.com/ipekgoktan/201-Project-Frontend"
             />
         </Col>
         <Col class = "ColRight">
           <ProjectCard
-            imgPath={image}
+            imgPath={ScopeHackathonHome}
+            img1 = {ScopeHackathon1}
+            img2 = {ScopeHackathon2}
             title="Scope Cup"
-            description="First description"
+            description = "A web application to show Scope Cup points and Scope Lunch buddies and shuffle groups."
+            Longdescription = "A web application to show Scope Cup points and Scope Lunch buddies and shuffle groups. Users can open the Scope cup page, choose which team to allocate points to, and add them. Users can also enter the lunch buddies page and see who they are paired with for the week, or shuffle the list to create new groupings."
+            Language= "HTML/CSS, Javascript"
+            Frameworks= "Figma, Firebase, Node.js, Heroku"
+            awards = "2nd Place Hackathon Best Project"
+            LongAward = " 2nd Place Hackathon Best Project Winner"
+            Link = "https://github.com/nicole-russack/TeamAScope"
           />
         </Col>
         <Col class = "ColCenter">
             <ProjectCard
-              imgPath={VibeCheckHome}
-              img1 = {VibeCheckimgae1}
-              img2 = {VibeCheckimgae2}
-              img3 = {VibeCheckimgae3}
-              img4 = {VibeCheckimgae4}
+              imgPath={PortfolioHome}
+              img1 = {PortfolioSite1}
+              img2 = {PortfolioSite2}
+              img3 = {PortfolioSite3}
+              img4 = {PortfolioSite4}
               title="Portfoilio Website"
               description = "This site!"
               Longdescription = "I wanted a site to show what I have been working on and to show my progress as a software engineer. I created this site using React JS and hoasted it using Github Pages."
