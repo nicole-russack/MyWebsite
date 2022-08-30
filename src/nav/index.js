@@ -1,1 +1,0 @@
-export { default as Nav } from '/Users/nicolerussack/nicole-russack-webpage/src/nav/Nav.js';
