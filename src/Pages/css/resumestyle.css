@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+
+.wholeResumePage {
+    padding-top: 50px;
+    background: hsla(309, 100%, 43%, 1);
+
+    background: linear-gradient(270deg, hsla(309, 100%, 43%, 1) 0%, hsla(276, 74%, 36%, 1) 97%);
+
+    background: -moz-linear-gradient(270deg, hsla(309, 100%, 43%, 1) 0%, hsla(276, 74%, 36%, 1) 97%);
+
+    background: -webkit-linear-gradient(270deg, hsla(309, 100%, 43%, 1) 0%, hsla(276, 74%, 36%, 1) 97%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#CE00BC", endColorstr="#6918A0", GradientType=1 );
+    display: flex;
+    align-Items: center;
+    justify-Content: center;
+    flex: 1;
+    flex-Direction: column;
+}
+
+
+.button{
+    background-Color:#010440;
+    width: 630px;
+    height: 75px;
+    margin-Bottom: 50px;
+    justify-Content: center;
+    display: flex;
+    align-Items: center;
+    border-radius: 30px;
+    color: white;
+}
+
+.button:hover {
+    background-Color:black;
+
+}
+
+.buttonText{
+    color: #7013A3;
+    text-decoration: none;
+    font-size:30px;
+    font-family: 'Josefin Sans', cursive;
+
+}
+
+
+
+.PageHeading{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+
+.MyResumeHeading{
+    font-family: 'Josefin Sans';
+    font-weight: bold;
+    font-size:80px;
+    color:#010440;
+
+}
