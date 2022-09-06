@@ -1,7 +1,7 @@
 //display plain resume black background with a working download button 
 import React, { useState } from 'react';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
-import Pdf from '/Users/nicolerussack/nicole-russack-webpage/src/Assets/NicoleRussackResume.pdf';
+import Pdf from '/Users/nicolerussack/nicole-russack-webpage/src/Assets/NicoleRussackResume2.pdf';
 import { useNav } from '/Users/nicolerussack/nicole-russack-webpage/src/customHooks/useNav.js';
 import '/Users/nicolerussack/nicole-russack-webpage/src/Pages/css/resumestyle.css'
 
