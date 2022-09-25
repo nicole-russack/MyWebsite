@@ -58,6 +58,12 @@
 
 }
 
+.Imge{
+    width: 100%;
+    border-Radius: 50%;
+    margin-Left:5vh;
+}
+
 p .otherAboutMeText{
     text-align: left;
 }

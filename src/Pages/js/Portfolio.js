@@ -46,7 +46,7 @@ const Portfoilio = () => {
   return (
     <div class = "wholeporfolioPage"  id='profileContainer'>
       <div class = "headingText">
-        <h1 class = "MyPortfolioHeading"> My Portfoilio!</h1>
+        <h1 class = "MyPortfolioHeading"> My Portfolio!</h1>
         <h2>Check out some of my recent work</h2>
       </div>
 
