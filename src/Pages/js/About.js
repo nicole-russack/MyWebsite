@@ -12,7 +12,7 @@ const About = () => {
        <div class = "JustImage">
          <img src = {headshot} style = {{
            borderRadius: '50%',
-           marginLeft:'5vh', width:'550px' }}/>
+           marginLeft:'5vh', width:'40vw' }}/>
         </div>
         
         <div class = "InsideText">
